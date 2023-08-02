@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static("uploads"))
 const url =
-  "mongodb+srv://deepaktandle:TlB3lNjbGrEuJqmg@cluster0.vs4abmi.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://deepaktandle123:BcK0IRBYttbI7Rg8@cluster0.lpkaa5a.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(url)
   .then(() => {
@@ -25,5 +25,3 @@ app.listen(port, () => {
 
 
 
-// TlB3lNjbGrEuJqmg
-// mongodb+srv://deepaktandle:TlB3lNjbGrEuJqmg@cluster0.vs4abmi.mongodb.net/?retryWrites=true&w=majority
